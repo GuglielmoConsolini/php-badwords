@@ -1,3 +1,9 @@
+<?php
+
+$testo = $_GET["testo"];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +12,6 @@
     <title>Elabora lunghezza testo</title>
 </head>
 <body>
-    
+    <h1>Il testo è lungo <?php echo strlen($testo) ?> caratteri</h1>
 </body>
 </html>

@@ -12,16 +12,9 @@
     <!-- FORM CON LA TEXT AREA -->
      <form action="lunghezza.php" method="GET">
         <input type="text" placeholder="Descrivi la tua giornata" name="testo" >
-        <button type="submit">Invia</button>
-     </form>
-   
-    <h2>Insersci una parola e PHP la censurerà</h2>
-
-     <!-- FORM PER LA PAROLA DA CENSURARE -->
-      <form action="lunghezza.php" method="GET">
+        <h2>Insersci una parola e PHP la censurerà</h2>
         <input type="text" placeholder="Inserisci parola da censurare" name="parola">
         <button type="submit">Invia</button>
-      </form>
-    
+     </form>
 </body>
 </html>

@@ -14,6 +14,14 @@
         <input type="text" placeholder="Descrivi la tua giornata" name="testo" >
         <button type="submit">Invia</button>
      </form>
+   
+    <h2>Insersci una parola e PHP la censurerà</h2>
+
+     <!-- FORM PER LA PAROLA DA CENSURARE -->
+      <form action="lunghezza.php" method="GET">
+        <input type="text" placeholder="Inserisci parola da censurare" name="parola">
+        <button type="submit">Invia</button>
+      </form>
     
 </body>
 </html>
